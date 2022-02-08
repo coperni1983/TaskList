@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   title:string = 'My Task List';
+  nombreboton:string = "Add Task!";
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleAddTask(){
+    console.log("toggleAddTask!");
   }
 
 }
